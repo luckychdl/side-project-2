@@ -10,7 +10,7 @@ const UserProfile = ({ setIsLoggedIn }) => {
       <div key='followers'>팔로워<br />0</div>,
     ]}>
       <Card.Meta title="vivid" avatar={<Avatar>VI</Avatar>}/>
-      <Button>로그아웃</Button>
+      <Button onClick={() => setIsLoggedIn(false)}>로그아웃</Button>
     </Card>
   )
 }
