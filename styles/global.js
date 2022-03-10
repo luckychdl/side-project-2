@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     padding: 0 16px;
     margin: 0;
+    color: #0f0f0f;
   }
 `
 export default GlobalStyle
